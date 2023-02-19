@@ -1,0 +1,31 @@
+<!-- start video -->
+                            <div
+                class="item-box"
+                style="margin: 30px 10px 30px 10px;"
+                data-wow-delay=".10s"
+            >
+                <div class="video-hero">
+                    <div class="video-bg">
+                        <video
+                            src="./portfolio/videos/{VIDEO NAME}"
+                            autoplay
+                            muted
+                            loop
+                            controls
+                        ></video>
+                    </div>
+
+                    <div class="inner">
+                        <h2>
+                            {VIDEO TITLE}
+                        </h2> 
+                        <a
+                            target="_blank"
+                            href="javascript:window.open('{LINK}', '_blank',)">
+                            Click here
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- end video -->

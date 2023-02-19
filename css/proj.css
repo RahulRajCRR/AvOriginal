@@ -1,0 +1,63 @@
+/* ! Proj */
+
+.proj{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 400px 10px ;
+  }
+  .card{
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    /* box-shadow: 5px 5px 20px ; */
+    overflow: hidden;
+    background: transparent;
+    border-radius: 15px;
+  }
+  img{
+    height: 200px;
+    width: 300px;
+  }
+  .intro{
+    height: 300px;
+    width: 350px;
+    padding: 6px;
+    box-sizing: border-box;
+    position:relative;
+    bottom: 60px;
+    background-color: rgb(27, 27, 27 , .5);
+    color: white;
+    transition: .5s;
+    background-color: transparent;
+  }
+
+ .h1{
+      margin: 10px;
+      font-size: 15px;
+      opacity: 1;
+    }
+  .p{
+      font-size: 6px;
+      margin: 5px;
+      visibility: hidden;
+      opacity: 0;
+      background: transparent;
+    } 
+  .card:hover{
+    cursor: pointer;
+  }
+  
+  .card:hover .intro{
+    height: 400px;
+    bottom: 80px;
+    background: black;
+    opacity: .7;
+  }
+  
+  .card:hover p{
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  
+  
