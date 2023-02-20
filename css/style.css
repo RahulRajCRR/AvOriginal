@@ -2286,6 +2286,7 @@ a:hover, span:hover {
   border-bottom: 2px solid transparent;
   z-index: 999;
   min-height: 60px;
+  max-height: 100px;
   background: transparent;
 }
 
