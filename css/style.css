@@ -21,7 +21,7 @@
 }
 .owl-carousel .nav-button {
   height: 100px;
-  width: 100px;
+  width: auto;
   cursor: pointer;
   position: absolute;
   top: 110px !important;
@@ -38,12 +38,9 @@
   right: -80px;
 }
 .owl-theme .owl-nav [class*=owl-] {
-  color: lack
-  
-  
-  
-;
-  background: #000000;
+  color: lack;
+  size: 20px;
+ 
   border-radius: 3px;
 }
 .owl-carousel .prev-carousel:hover {
@@ -55,7 +52,7 @@
 
 /* !Proj */
 
-.carousel-wrapper {
+.carous2-wrapper {
   width: 1000px;
   margin: auto;
   position: relative;
@@ -76,10 +73,10 @@
 }
 .owl-carous2 .nav-button {
   height: 100px;
-  width: 100px;
+  width: 50px;
   cursor: pointer;
   position: absolute;
-  top: 110px !important;
+  top: 80px !important;
 }
 .owl-carous2 .owl-prev.disabled,
 .owl-carous2 .owl-next.disabled {
@@ -87,10 +84,12 @@
   opacity: 0.25;
 }
 .owl-carous2 .owl-prev {
-  left: -100px;
+  left: -80px;
+  height: 200px;
 }
 .owl-carous2 .owl-next {
   right: -80px;
+  height: 50px;
 }
 .owl-theme .owl-nav [class*=owl-] {
   
@@ -100,7 +99,7 @@
 .owl-carous2 .prev-carousel:hover {
   background-position: 0px -53px;
 }
-.owl-carousel .next-carousel:hover {
+.owl-carous2 .next-carousel:hover {
   background-position: -24px -53px;
 }
 
