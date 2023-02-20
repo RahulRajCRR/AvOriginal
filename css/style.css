@@ -2282,10 +2282,11 @@ a:hover, span:hover {
   width: 100%;
   /* background: transparent; */
   background-color: #000;
-  opacity: .7;
+  opacity: 1;
   border-bottom: 2px solid transparent;
   z-index: 999;
   min-height: 80px;
+  background: transparent;
 }
 
 .navbar .icon-bar {
@@ -2298,6 +2299,7 @@ a:hover, span:hover {
   color: #fff;
   padding: 15px 7px;
   margin: 10px 15px;
+  opacity: 1;
 }
 
 .navbar .navbar-nav .dropdown-menu {
@@ -2310,7 +2312,7 @@ a:hover, span:hover {
 .navbar .navbar-nav .dropdown-item {
   font-size: 13px;
   padding: 10px 20px;
-  opacity: .9;
+  opacity: 1;
 }
 
 .navbar .navbar-nav .dropdown-item:hover {
