@@ -9,7 +9,8 @@
 }
 .owl-carousel .owl-nav {
   overflow: hidden;
-  height: 0px;
+  height: 20px;
+ 
 }
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
@@ -32,16 +33,16 @@
   opacity: 0.25;
 }
 .owl-carousel .owl-prev {
-  left: -35px;
+  left: -35px;height: 20px;
 }
 .owl-carousel .owl-next {
   right: -35px;
 }
 .owl-theme .owl-nav [class*=owl-] {
-  color: #ffffff;
+  color: #c21c1c;
   font-size: 39px;
   background: #fdfafa;
-  border-radius: 3px;
+  border-radius: 10px;
 }
 .owl-carousel .prev-carousel:hover {
   background-position: 0px -53px;
@@ -158,7 +159,7 @@
 }
 .owl-carous2 .owl-next {
   right: -80px;
-  height: 50px;
+  height: 5px;
 }
 .owl-theme .owl-nav [class*=owl-] {
   
