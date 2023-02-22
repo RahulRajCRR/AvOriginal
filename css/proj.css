@@ -57,11 +57,13 @@
     bottom: 160px;
     background: black;
     opacity: .7;
+    animation: fadeIn .2s ;
   }
   
   .card:hover p{
     opacity: 1;
     visibility: visible;
+    animation: fadeIn 3s; 
   }
   
   
