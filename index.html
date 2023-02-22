@@ -48,6 +48,10 @@
         rel="stylesheet"
         href="css/style.css"
     />
+
+	
+    <link rel="stylesheet" href="css/proj.css">
+
     <link rel="stylesheet" href="css/imagehover.min.css">
 
 
@@ -695,39 +699,34 @@
 
 			<div class="carousel-wrapper" style="margin-bottom: 200px;">
 				<div class="owl-carousel owl-theme">
-                    <div class="item"data-modal="modalOne"style="height: 300px;margin-top:5px">
+                    <div class="item" style="height: 300px;margin-top:5px">
                         <img src="./img/work/DoME.jpeg" style="height: 300px;width: 250px;border-radius: 10px;">
                         <div class="bottom-left color" style="position: relative; bottom:50px;right:70px;"><h1 style="font-size: 20px;font-weight:bold;font-family: 'Raleway',sans-serif">DOME</h1></div>
                     </div>
-					<div class="item"data-modal="modalOne"style="height: 300px;margin-top:5px">
+					
+					<!-- !popup-->
+					
+					<div class="item" style="height: 300px;">
+						<div class="row">
+						   <div class="proj">
+							   <div class="card" style="margin-top:5px">
+								   <img style="height: 300px;width: 250px;border-radius: 10px" src="./img/work/DoME.jpeg">
+								   <div class="intro">
+								   <h1 style="font-size: 20px;font-weight:bold;font-family: 'Raleway',sans-serif">DOME Theater</h1>
+								   <p >DOME Theater projected<br>DOME Theater projected<br>DOME Theater projected<br>DOME Theater projected</p>
+								   </div>
+							   </div>
+						   </div>
+						</div>
+					</div>
+   
+					   <!-- !popup-->
+
+					<div class="item" style="height: 300px;margin-top:5px">
                         <img src="./img/work/video_wall.png" style="height: 300px;width: 250px;border-radius: 10px;">
                         <div class="bottom-left color" style="position: relative; bottom:50px;right:50px;"><h1 style="font-size: 20px;font-weight:bold;font-family: 'Raleway',sans-serif">Video Wall</h1></div>
                     </div>
 					
-					<!-- !popup-->
-					<!-- <div id="modalOne" class="modal">
-						<div class="modal-content">
-						  <div class="contact-form">
-							<a class="close">&times;</a>
-							<form action="/">
-							  <h2>Contact Us</h2>
-							  <div>
-								<input class="fname" type="text" name="name" placeholder="Full name" />
-								<input type="text" name="name" placeholder="Email" />
-								<input type="text" name="name" placeholder="Phone number" />
-								<input type="text" name="name" placeholder="Website" />
-							  </div>
-							  <span>Message</span>
-							  <div>
-								<textarea rows="4"></textarea>
-							  </div>
-							  <button type="submit" href="/">Submit</button>
-							</form>
-						  </div>
-						</div>
-					</div> -->
-
-					<!-- !popup-->
 					<div class="item"style="height: 300px;margin-top:5px">
                         <img src="./img/work/Cybersecurity.jpg" style="height: 300px;width: 250px;border-radius: 10px;">
                         <div class="bottom-left color" style="position: relative; bottom:50px;right:40px;"><h1 style="font-size: 20px;font-weight: bold;font-family: 'Raleway',sans-serif;">Cyber Security</h1></div>
@@ -745,7 +744,7 @@
                         <div class="bottom-left color" style="position: relative; bottom:50px;right:40px;"><h1 style="font-size: 20px;font-weight: bold;">AI Surveillance</h1></div>
                     </div>
                     <div class="item"style="height: 300px;margin-top:5px">
-                        <img src="./img/work/MCCC.jpg" style="height: 300px;width: 250px;object-fit: cover; border-radius: 10px;">
+                        <img src="./img/work/MCCC.jpeg" style="height: 300px;width: 250px;object-fit: cover; border-radius: 10px;">
                         <div class="bottom-left color" style="position: relative; bottom:50px;right:70px;"><h1 style="font-size: 20px;font-weight: bold;">MCCC</h1></div>
                     </div>
                     <div class="item"style="height: 300px;margin-top:5px">
@@ -753,11 +752,11 @@
                         <div class="bottom-left color" style="position: relative; bottom:70px;left:20px;"><h1 style="font-size: 20px;text-align: start;font-weight: bold;">Integrated Command <br>and Control Centre</h1></div>
                     </div>
                     <div class="item"style="height: 300px;margin-top:5px">
-                        <img src="./img/work/IOT.jpg" style="height: 300px;width: 250px;border-radius: 10px;">
-                        <div class="bottom-left color" style="position: relative; bottom:50px;right:90px;"><h1 style="font-size: 20px;font-weight: bold;">IoT</h1></div>
+                        <img src="./img/work/iot.jpeg" style="height: 300px;width: 250px;border-radius: 10px;object-fit:cover;">
+                        <div class="bottom-left color" style="position: relative; bottom:50px;right:10px;"><h1 style="font-size: 20px;font-weight: bold;">Internet of Things</h1></div>
                     </div>
                     <div class="item"style="height: 300px;margin-top:5px">
-                        <img src="./img/work/Smart-pole.png" style="height: 300px;width: 250px;border-radius: 10px;">
+                        <img src="./img/work/smartpole.jpeg" style="height: 300px;width: 250px;border-radius: 10px;">
                         <div class="bottom-left color" style="position: relative; bottom:50px;right:50px;"><h1 style="font-size: 20px;font-weight: bold;">Smart Pole</h1></div>
                     </div>
                     <div class="item"style="height: 300px;margin-top:5px">
@@ -844,7 +843,7 @@
 
 
         <!-- ! ======================= Partners  ======================= --> 
-        <section style="position: relative;margin-top:20px;;"
+        <section style="position: relative;margin-top:20px;"
             class="portfolio section-padding pb-70"
             data-scroll-index="3">
             <div class="container">
@@ -859,64 +858,65 @@
                         </div>
                     </div>
                 </div>
-                <div class="owl-carous2 owl-theme" style="border-radius: 10px;scale: .86;top: -10px;bottom: -50px;">
-					<div class="item"style="height: 180px;margin-top:5px">
-                        <img src="./img/Partners/2/amd1.jpg" style="border-radius: 10px;scale:.7;margin: -20px;">                        
+                <div class="owl-carous2 owl-theme" style="height:200px;width:1150px;border-radius: 10px;scale: 1;top: -60px;bottom: -50px;">
+					<div class="item"style="height: 250px;width:600px;margin-top:5px;scale:.5">
+                        <img src="./img/Partners/2/amd1.jpg" style="border-radius: 25px;scale:.7;">                        
                     </div>
-					<div class="item"style="height: 200px;margin-top:5px">
-                        <img src="./img/Partners/2/int1.jpg" style="border-radius: 10px;scale:.7;margin: -20px;">                        
+					<div class="item"style="height: 250px;width:600px;margin-top:5px;scale:.5">
+                        <img src="./img/Partners/2/int1.jpg" style="border-radius: 25px;scale:.7; ">                        
                     </div>
-					<div class="item"style="height: 200px;margin-top:5px">
-                        <img src="./img/Partners/2/len1.jpg" style="border-radius: 10px;scale:.7;margin: -20px;">                        
+					<div class="item"style="height: 250px;width:600px;margin-top:5px;scale:.5">
+                        <img src="./img/Partners/2/len1.jpg" style="border-radius: 25px;scale:.7; ">                        
                     </div>
-					<div class="item"style="height: 200px;margin-top:5px">
-                        <img src="./img/Partners/2/del1.jpg" style="border-radius: 10px;scale:.7;margin: -20px;">                        
+					<div class="item"style="height: 250px;width:600px;margin-top:5px;scale:.5">
+                        <img src="./img/Partners/2/del1.jpg" style="border-radius: 25px;scale:.7; ">                        
                     </div>
-					<div class="item"style="height: 200px;margin-top:5px">
-                        <img src="./img/Partners/2/hp.jpg" style="border-radius: 10px;scale:.7;margin: -20px;">                        
+					<div class="item"style="height: 250px;width:600px;margin-top:5px;scale:.5">
+                        <img src="./img/Partners/2/hp.jpg" style="border-radius: 25px;scale:.7; ">                        
                     </div>
-					<div class="item"style="height: 200px;margin-top:5px">
-                        <img src="./img/Partners/allen.jpg" style="border-radius: 10px;scale:.7;margin: -20px;">                        
+					<div class="item"style="height: 250px;width:600px;margin-top:5px;scale:.5">
+                        <img src="./img/Partners/allen.jpg" style="border-radius: 25px;scale:.7; ">                        
                     </div>
-					<div class="item"style="height: 200px;margin-top:5px">
-                        <img src="./img/Partners/2/jbl.jpg" style="border-radius: 10px;scale:.7;margin: -20px;">                        
+					<div class="item"style="height: 250px;width:600px;margin-top:5px;scale:.5">
+                        <img src="./img/Partners/2/jbl.jpg" style="border-radius: 25px;scale:.7; ">                        
                     </div>
-					<div class="item"style="height: 200px;margin-top:5px">
-                        <img src="./img/Partners/2/qsc1.jpg" style="border-radius: 10px;scale:.7;margin: -20px;">                        
+					<div class="item"style="height: 250px;width:600px;margin-top:5px;scale:.5">
+                        <img src="./img/Partners/2/qsc1.jpg" style="border-radius: 25px;scale:.7; ">                        
                     </div>
-					<div class="item"style="height: 200px;margin-top:5px">
-                        <img src="./img/Partners/2/Electro-Voice.jpg" style="border-radius: 10px;scale:.7;margin: -20px;">                        
+					<div class="item"style="height: 250px;width:600px;margin-top:5px;scale:.5">
+                        <img src="./img/Partners/2/Electro-Voice.jpg" style="border-radius: 25px;scale:.7; ">                        
                     </div>
-					<div class="item"style="height: 200px;margin-top:5px">
-                        <img src="./img/Partners/2/hikv.jpg" style="border-radius: 10px;scale:.7;margin: -20px;">                        
+					<div class="item"style="height: 250px;width:600px;margin-top:5px;scale:.5">
+                        <img src="./img/Partners/2/hikv.jpg" style="border-radius: 25px;scale:.7; ">                        
                     </div>
-					<div class="item"style="height: 200px;margin-top:5px">
-                        <img src="./img/Partners/2/Nest.jpg" style="border-radius: 10px;scale:.7;margin: -20px;">                        
+					<div class="item"style="height: 250px;width:600px;margin-top:5px;scale:.5">
+                        <img src="./img/Partners/2/Nest.jpg" style="border-radius: 25px;scale:.7; ">                        
                     </div>
-					<div class="item"style="height: 200px;margin-top:5px">
-                        <img src="./img/Partners/2/3.jpg" style="border-radius: 10px;scale:.7;margin: -20px;">                        
+					<div class="item"style="height: 250px;width:600px;margin-top:5px;scale:.5">
+                        <img src="./img/Partners/2/3.jpg" style="border-radius: 25px;scale:.7; ">                        
                     </div>
-					<div class="item"style="height: 200px;margin-top:5px">
-                        <img src="./img/Partners/2/2.jpg" style="border-radius: 10px;scale:.7;margin: -20px;">                        
+					<div class="item"style="height: 250px;width:600px;margin-top:5px;scale:.5">
+                        <img src="./img/Partners/2/2.jpg" style="border-radius: 25px;scale:.7; ">                        
                     </div>
-					<div class="item"style="height: 200px;margin-top:5px">
-                        <img src="./img/Partners/2/6.jpg" style="border-radius: 10px;scale:.7;margin: -20px;">                        
+					<div class="item"style="height: 250px;width:600px;margin-top:5px;scale:.5">
+                        <img src="./img/Partners/2/6.jpg" style="border-radius: 25px;scale:.7; ">                        
                     </div>
-					<div class="item"style="height: 200px;margin-top:5px">
-                        <img src="./img/Partners/2/tcl.jpg" style="border-radius: 10px;scale:.7;margin: -20px;">                        
+					<div class="item"style="height: 250px;width:600px;margin-top:5px;scale:.5">
+                        <img src="./img/Partners/2/tcl.jpg" style="border-radius: 25px;scale:.7; ">                        
                     </div>
-					<div class="item"style="height: 200px;margin-top:5px">
-                        <img src="./img/Partners/2/Winia.jpg" style="border-radius: 10px;scale:.7;margin: -20px;">                        
+					<div class="item"style="height: 250px;width:600px;margin-top:5px;scale:.5">
+                        <img src="./img/Partners/2/Winia.jpg" style="border-radius: 25px;scale:.7; ">                        
                     </div>
-					<div class="item"style="height: 200px;margin-top:5px">
-                        <img src="./img/Partners/2/views1.jpg" style="border-radius: 10px;scale:.7;margin: -20px;">                        
+					<div class="item"style="height: 250px;width:600px;margin-top:5px;scale:.5">
+                        <img src="./img/Partners/2/views1.jpg" style="border-radius: 25px;scale:.7; ">                        
                     </div>
-					<div class="item"style="height: 200px;margin-top:5px">
-                        <img src="./img/Partners/2/d-link.jpg" style="border-radius: 10px;scale:.7;margin: -20px;">                        
+					<div class="item"style="height: 250px;width:600px;margin-top:5px;scale:.5">
+                        <img src="./img/Partners/2/d-link.jpg" style="border-radius: 25px;scale:.7; ">                        
                     </div>
-					<div class="item"style="height: 200px;margin-top:5px">
-                        <img src="./img/Partners/2/airt1.jpg" style="border-radius: 10px;scale:.7;margin: -20px;">                        
+					<div class="item"style="height: 250px;width:600px;margin-top:5px;scale:.5">
+                        <img src="./img/Partners/2/airt1.jpg" style="border-radius: 25px;scale:.7; ">                        
                     </div>
+				</div>
 					
 
 					
@@ -938,7 +938,7 @@
                     <div class="item">
                         <h4><img src="./img/Partners/Panasonic.png" class="img-responsive" style="height: 180px;width:500px; margin-top:  30px;padding-left: 40px;padding-right: 120px;" alt="logo1"></h4>
                     </div> -->
-                </div>
+
 
                 <!-- <div class="outer-grid">
                     <div class="inner-grid" style="width: 90px;">
@@ -967,7 +967,7 @@
                     </div>
                 </div> -->
             </div>
-            <div class="line bottom left"></div>
+            <div class="line bottom left" style="top: 500px;bottom: 1000px;"></div>
         </section>
         <!-- ! ======================= Works  ======================= --> 
                     <!-- TODO: start 1st video -->
@@ -1190,7 +1190,7 @@
 
 
         <section
-            class="contact-sec section-padding position-re" style="margin-top: 50px;"
+            class="contact-sec section-padding position-re" style="margin-top: 120px;"
             data-scroll-index="6">
             <div class="container">
                 <div class="row justify-content-center">
