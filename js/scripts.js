@@ -1,10 +1,164 @@
+$(document).ready(function () {
+    $(".partners").slick({
+      slidesToShow: 6,
+      slidesToScroll: 1,
+      autoplay: true,
+      margin:20,
+      autoplaySpeed: 3000,
+      animate:'linear',
+      arrows: false,
+      dots: false,
+      pauseOnHover: false,
+      responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            slidesToShow: 2
+          }
+        },
+        {
+          breakpoint: 520,
+          settings: {
+            slidesToShow: 2
+          }
+        }
+      ]
+    });
+  });
+  
+
+
+  $('.services').slick({
+    margin:10,
+    infinite: true,
+    slidesToShow: 4 ,
+    slidesToScroll: 1,
+    responsive: [
+        {
+            breakpoint: 1600,
+            settings: {
+              slidesToShow: 4.6,
+              slidesToScroll: 1,
+            }
+          },
+        {
+          breakpoint: 1400,
+          settings: {
+            slidesToShow: 4.2,
+            slidesToScroll: 1,
+            centerMode:true,
+          }
+        },
+        {
+            breakpoint: 1200,
+            settings: {
+              slidesToShow: 3.6,
+              slidesToScroll: 1,
+              centerMode:true,
+            }
+          },
+        {
+            breakpoint: 1100,
+            settings: {
+              slidesToShow: 3.2,
+              slidesToScroll: 1,
+              centerMode:true,
+            }
+          },
+        {
+            breakpoint:1000,
+            settings:{
+                slidesToShow:3.6,
+                slidesToScroll:1,
+            }
+        },
+        {
+            breakpoint: 900,
+            settings: {
+              slidesToShow: 2.9,
+              slidesToScroll: 1,
+            }
+          },
+        {
+          breakpoint: 800,
+          settings: {
+            slidesToShow: 2.4,
+            slidesToScroll: 1,
+          }
+        },
+        {
+            breakpoint: 700,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          },
+        ],
+
+  });
+
+
+//   !Partners //
+
+
+
+
+//   slidesToShow: 6,
+//   slidesToScroll: 1,
+//   autoplay: true,
+//   autoplaySpeed: 1500,
+//   arrows: false,
+//   dots: false,
+//   pauseOnHover: false,
+
+//   window.onload=function(){
+//     $('.cust').slick({
+//     arrows:false,
+//     centerMode:true,
+//     slidesToShow: 6,
+//     slidesToScroll: 1,
+//     autoplay: true,
+//     dots:false,
+//     autoplaySpeed: 1500,
+//     responsive: [
+//         {
+//           breakpoint: 1024,
+//           settings: {
+//             slidesToShow: 5,
+//             slidesToScroll: 1,
+//           }
+//         },
+//         {
+//           breakpoint: 600,
+//           settings: {
+//             slidesToShow: 3,
+//             slidesToScroll: 1,
+//           }
+//         },
+//         {
+//             breakpoint: 480,
+//             settings: {
+//               slidesToShow: 1,
+//               slidesToScroll: 1
+//             }
+//           },
+//         ],
+//     });
+//   };
+  
+
+
+
+
+
+
+
+
+
 
 $(function () {
 
     "use strict";
-
-
-
     var wind = $(window);
 
 
