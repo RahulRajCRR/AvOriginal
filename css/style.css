@@ -1,8 +1,10 @@
 /* !Popup */
-
-
-/* !Popup */
-
+.slick-slide {
+  margin: 0px 10px;
+} 
+.slick-slide img {
+  width: 100%;
+}
 
 /* .carousel-wrapper {
   width: 1100px;
