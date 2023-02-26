@@ -208,13 +208,16 @@
   width: 100%;
   padding: 10px;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 750px) {
   .inner-grid {
      flex: 50%;
      max-width: 50%;
   }
   .swiper-header{
-    height: 600px !important;
+    height: clamp(480px,75vw,800px) !important;
+  }
+  #video-background{
+    padding-top: clamp(280px,50vw,320px) !important;
   }
 }
 @media screen and (max-width: 600px) {
@@ -5023,6 +5026,7 @@ a:hover, span:hover {
   width: 230px !important;
   margin: 0px 10px;
   overflow: hidden;
+  border-radius: 8px;
 }
 
 .services .item .icon {
