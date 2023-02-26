@@ -5020,6 +5020,9 @@ a:hover, span:hover {
   padding: 60px;
   background: #151921;
   position: relative;
+  width: 230px !important;
+  margin: 0px 10px;
+  overflow: hidden;
 }
 
 .services .item .icon {
