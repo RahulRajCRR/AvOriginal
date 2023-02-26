@@ -87,6 +87,10 @@ text-align: start; }
   animation: fadeIn .2s ;
 }
 
+.card:hover #data-center-intro{
+  bottom: 200px;
+}
+
 .card:hover p{
   opacity: 1;
   visibility: visible;
