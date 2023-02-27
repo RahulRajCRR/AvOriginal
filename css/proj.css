@@ -75,8 +75,8 @@ text-align: start; }
 }
 
 .card:hover .intro{
-  height: 350px;
-  bottom: 180px;
+  height: 360px;
+  bottom: 200px;
   background: black;
   opacity: .7;
   animation: fadeIn .2s ;
