@@ -64,12 +64,12 @@ text-align: start; }
 .h1{
     font-family: 'Raleway',sans-serif;
     margin: 10px;
-    font-size: 15px;
+    font-size: 13px;
     opacity: 1;
     text-align: start;
   }
 .p{
-    font-size: 12px;
+    font-size: 8px;
     margin-top: 1px;
     visibility: hidden;
     opacity: 0;
