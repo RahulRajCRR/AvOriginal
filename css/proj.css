@@ -27,11 +27,6 @@
   }
 }
 
-
-
-
-
-
 .card{
   height: 300px;
   width: 250px;
@@ -92,7 +87,7 @@ text-align: start; }
   visibility: visible;
   animation: fadeIn 3s; 
   color: white;
-  line-height: 1.4;
+  line-height: 1.2;
 }
 
 
